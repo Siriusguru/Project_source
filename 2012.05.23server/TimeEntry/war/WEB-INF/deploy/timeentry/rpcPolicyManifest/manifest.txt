@@ -1,0 +1,3 @@
+# Module timeentry
+# RPC service class, partial path of RPC policy file
+cpm.as.client.GreetingService, FD8B9F40A46B451F0E08094C0FA57173.gwt.rpc

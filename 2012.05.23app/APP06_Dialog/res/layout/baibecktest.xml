@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/baitext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A " />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B " />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C " />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="테스트 결과 보기" />
+    </LinearLayout>
+
+</ScrollView>
