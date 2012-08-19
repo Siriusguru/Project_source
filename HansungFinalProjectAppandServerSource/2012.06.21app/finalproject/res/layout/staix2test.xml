@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/statsub"
+    android:scrollbarStyle="outsideOverlay" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/baitext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.나는 기분이 좋다. "
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.나는 쉽게 피로해진다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.나는 울고 싶은 심정이다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.나도 다른 사람들처럼 행복했으면 한다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.나는 마음을 빨리 정하지 못해서 실패를 한다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.나는 마음이 놓인다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.나는 차분하고 침착하다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.나는 너무 많은 여러 문제가 밀어닥쳐서 극복할 수 없을 것 같다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.나는 하찮은 일에 너무 걱정을 한다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.나는 행복하다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11.나는 무슨 일이건 힘들게 생각한다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.나는 자신감이 부족하다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.나는 마음이 든든하다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14.나는 위기나 어려움을 피하려고 애쓴다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.나는 울적하다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16.나는 만족스럽다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17.사소한 생각이 나를 괴롭힌다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.나는 실망을 지나치게 예민하게 받아들이기 때문에 머리 속에서 지워버릴 수가 없다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19.나는 착실한 사람이다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/baitext20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20.나는 요즈음의 걱정이나 관심거리를 생각하면 긴장되거나 어찌할 바를 모른다."
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/bairadioGroup20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bairadio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C "
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/bairadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/result"
+            android:layout_gravity="center"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="20"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</ScrollView>

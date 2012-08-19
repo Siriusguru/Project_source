@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_image"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginTop="570px"
+        android:layout_x="62dp"
+        android:layout_y="331dp"
+        android:background="@drawable/play"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="20"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginTop="570px"
+        android:layout_x="133dp"
+        android:layout_y="331dp"
+        android:background="@drawable/pause"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="20"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:layout_marginTop="570px"
+        android:layout_x="206dp"
+        android:layout_y="333dp"
+        android:background="@drawable/stop"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="20"
+        android:typeface="monospace" />
+
+</AbsoluteLayout>

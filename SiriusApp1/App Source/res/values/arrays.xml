@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list">
+        <item>BAI BECK 불안척도</item>
+        <item>SAIC 소아 상태 불안척도</item>
+        <item>STAI-X 상태 불안척도</item>
+    </string-array>
+
+</resources>

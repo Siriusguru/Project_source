@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/saicsub" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_x="0dp"
+            android:layout_y="63dp"
+            android:textColor="#000000"
+            android:text="1. 지금 나는 마음이" />
+
+        <Spinner
+            android:id="@+id/saicspinner1"
+            style="@android:style/Widget.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="110dp"
+            android:textColor="#000000"
+            android:text="2. 지금 나는 마음이 " />
+
+        <Spinner
+            android:id="@+id/saicspinner2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="110dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="160dp"
+            android:textColor="#000000"
+            android:text="3. 지금 나는 마음이" />
+
+        <Spinner
+            android:id="@+id/saicspinner3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="160dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="210dp"
+            android:textColor="#000000"
+            android:text="4. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="210dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="260dp"
+            android:textColor="#000000"
+            android:text="5. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="260dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="310dp"
+            android:textColor="#000000"
+            android:text="6. 지금 나는  마음이" />
+
+        <Spinner
+            android:id="@+id/saicspinner6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="310dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="360dp"
+            android:textColor="#000000"
+            android:text="7. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="360dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="410dp"
+            android:textColor="#000000"
+            android:text="8. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="410dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="460dp"
+            android:textColor="#000000"
+            android:text="9. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="460dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="510dp"
+            android:textColor="#000000"
+            android:text="10. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="510dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="560dp"
+            android:textColor="#000000"
+            android:text="11. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="560dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="610dp"
+            android:textColor="#000000"
+            android:text="12. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="610dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="660dp"
+            android:textColor="#000000"
+            android:text="13. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner13"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="660dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="710dp"
+            android:textColor="#000000"
+            android:text="14. 지금 나는 기분이" />
+
+        <Spinner
+            android:id="@+id/saicspinner14"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="710dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="760dp"
+            android:textColor="#000000"
+            android:text="15. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="760dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="810dp"
+            android:textColor="#000000"
+            android:text="16. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="810dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="860dp"
+            android:textColor="#000000"
+            android:text="17. 지금 나는  기분이" />
+
+        <Spinner
+            android:id="@+id/saicspinner17"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="860dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="910dp"
+            android:textColor="#000000"
+            android:text="18. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner18"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="910dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="960dp"
+            android:textColor="#000000"
+            android:text="19. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner19"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="960dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="1010dp"
+            android:textColor="#000000"
+            android:text="20. 지금 나는" />
+
+        <Spinner
+            android:id="@+id/saicspinner20"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_x="127dp"
+            android:layout_y="1010dp" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="121dp"
+            android:layout_y="1068dp"
+            android:background="@drawable/result"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="20"
+            android:typeface="monospace" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

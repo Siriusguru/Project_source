@@ -1,0 +1,246 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>MusicMate Administrator</title>
+
+
+<link
+	href="http://www.gstatic.com/codesite/ph/17444577587916266307/css/ph_core.css"
+	rel="stylesheet" type="text/css" />
+<link href="http://code.google.com/css/codesite.pack.04102009.css"
+	rel="stylesheet" type="text/css" />
+<script language="javascript" src='script/jquery-1.6.min.js'></script>
+<script language="javascript" src='script/ajax.util.js'></script>
+</head>
+
+<body>
+
+
+	<!-- content -->
+	<div id="gc-pagecontent">
+		<h1 class="page_title">MusicMate Administrator</h1>
+		<h2>노래 관리 홈페이지</h2>
+
+		<!-- tabs -->
+		<div id="tabs" class="gtb">
+			<a id="home" href="#home" class="tab">Main Page</a> <a id="product"
+				href="#product" class="tab">날짜</a> <a id="item" href="#item"
+				class="tab">추천노래</a>
+			<div class="gtbc"></div>
+		</div>
+		<!-- home page content -->
+		<div class="g-unit" id="home-tab">
+			<h2>♬Music Mate♬</h2>
+			<p>
+				<div align="left">
+					<img src="images/mainpng.png" width="200px" align=right />
+				</div>
+				<!--  
+	        <ol>
+	          <li>Product/Item servlet will be invoked on clicking <b>Save</b>
+	            from UI</li>
+	          <li>doPut() method of respective servlet will
+	            invoke <b>datastore API</b> to persist the data
+	            into datastore</li>          
+	        </ol>
+	        -->
+
+				<p>앱 이름) Music Mate</p>
+				<p>앱 제작진) 정의현</p>
+			</p>
+			<p>담당교수님) 권정혁 교수님</p>
+			<p>제작기간) 2012. 02 ~ 2012.06</p>
+			<table border="1">
+				<tr>
+					<td width="764" height="33">
+						<p>
+							<font size="4" color="red">서버와 연동</font>
+						</p>
+						<p>간단한 설명</p></td>
+				</tr>
+			</table>
+			</p>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- ******************************************* product ******************************************* -->
+		<div class="g-unit" id="product-tab">
+			<div class="message" id="product-show-message" style="display: none">
+			</div>
+			<!-- search container -->
+			<div class="gsc-search-box" id="product-search-ctr">
+				<!-- section title -->
+				<h2>Music Mate 분류</h2>
+				<form name="product-search-form" id="product-search-form">
+					<label>분류</label> <input type="text" name="q" id="q"
+						class="gsc-input" /> <input type="button" value="찾기"
+						onclick="search('product')" class="gsc-search-button" /> <input
+						type="button" value="추가" onclick="add('product')"
+						class="gsc-search-button" /> <input type="reset"
+						id="product-search-reset" class="cancel" title="Reset"
+						value="Reset" style="visibility: hidden" />
+				</form>
+			</div>
+			<!-- list container -->
+			<div class="results" style="border: 0;" id="product-list-ctr">
+				<table width="100%" cellspacing="0" cellpadding="2" border="0"
+					style="border-collapse: collapse;">
+					<thead>
+						<tr>
+							<th scope="col">분류</th>
+							<th scope="col">날짜</th>
+							<th scope="col">설정</th>
+						</tr>
+					</thead>
+					<tbody id="product-list-tbody"></tbody>
+				</table>
+			</div>
+
+			<!-- create container -->
+			<div class="create-ctr" id="product-create-ctr">
+				<h2>결과 추가</h2>
+				<form name="product-create-form" id="product-create-form">
+					<table width="200" cellspacing="0" cellpadding="0">
+						<tbody>
+							<tr>
+								<td>questionnaire</td>
+								<td><span class="readonly"><input type="text"
+										style="width: 185px;" autocomplete="off" class="gsc-input"
+										maxlength="2048" name="name" id="name" /> </span>
+								</td>
+							</tr>
+							<tr>
+								<td>manual</td>
+								<td><input type="text" style="width: 185px;"
+									autocomplete="off" class="gsc-input" maxlength="2048"
+									name="description" id="description" />
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td><input type="button" class="save" title="Save"
+									value="저장" onclick="formValidate('product')" /> <input
+									type="button" class="cancel" title="Cancel" value="취소"
+									onclick="cancel('product')" /> <input type="reset"
+									id="product-reset" class="cancel" title="Reset" value="Reset"
+									style="visibility: hidden" /></td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+
+		</div>
+		<!-- ******************************************* item ******************************************* -->
+		<div class="g-unit" id="item-tab">
+			<div class="message" id="item-show-message" style="display: none">
+			</div>
+			<!-- search container -->
+			<div class="gsc-search-box" id="item-search-ctr">
+				<!-- section title -->
+				<h2>노래리스트</h2>
+				<form name="item-search-form" id="item-search-form">
+					<input type="text" name="q" id="q" class="gsc-input" /> <select
+						id="by" name="item-searchby" class="gsc-input">
+						<option value="name">노래</option>
+						<option value="product">검사결과</option>
+					</select> <input type="button" value="찾기" onclick="search('item')"
+						class="gsc-search-button" /> <input type="button" value="추가"
+						onclick="add('item')" class="gsc-search-button" /> <input
+						type="reset" id="item-search-reset" class="cancel" title="Reset"
+						value="Reset" style="visibility: hidden" />
+				</form>
+			</div>
+			<!-- list container -->
+			<!-- id="item-list-ctr" 테이블을 보여주는 역할?  -->
+			<div class="results" style="border: 0;" id="item-list-ctr">
+				<table width="100%" cellspacing="0" cellpadding="2" border="0"
+					style="border-collapse: collapse;">
+					<thead>
+						<tr>
+							<th scope="col">노래명-가수명</th>
+							<th scope="col">URL</th>
+							<th scope="col">노래 설명</th>
+							<th scope="col">분류</th>
+							<th scope="col">설정</th>
+						</tr>
+					</thead>
+					<tbody id="item-list-tbody"></tbody>
+				</table>
+			</div>
+			<!-- create container -->
+			<div class="create-ctr" id="item-create-ctr">
+				<h2>노래 추가하기</h2>
+				<form name="item-create-form" id="item-create-form">
+					<table width="200" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>Song</td>
+							<td><span class="readonly"><input type="text"
+									style="width: 185px;" autocomplete="off" class="gsc-input"
+									maxlength="2048" name="name" id="name" /> </span>
+							</td>
+						</tr>
+						<tr>
+							<td>URL</td>
+							<td><input type="text" style="width: 185px;"
+								autocomplete="off" class="gsc-input" maxlength="2048"
+								name="price" id="price" />
+							</td>
+						</tr>
+						<!--  메뉴얼에 대한 값을 지정해줘야 한다. 저장버튼을 누르면 인지할 수 있도록 -->
+						<tr>
+							<td>설명</td>
+							<td><input type="text" style="width: 185px;"
+								autocomplete="off" class="gsc-input" maxlength="2048"
+								name="manual" id="manual" />
+							</td>
+						</tr>
+						<tr>
+							<td>questionnaire</td>
+							<td><select id="item-product-list" name="product"></select>
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td><input type="button" class="save" title="Save"
+								value="저장" onclick="formValidate('item')" /> <input
+								type="button" class="cancel" title="Cancel" value="취소"
+								onclick="cancel('item')" /> <input type="reset" id="item-reset"
+								class="cancel" title="Reset" value="Reset"
+								style="visibility: hidden" /></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<!-- create conatiner ends here -->
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+			init();
+		});
+	</script>
+</body>
+</html>

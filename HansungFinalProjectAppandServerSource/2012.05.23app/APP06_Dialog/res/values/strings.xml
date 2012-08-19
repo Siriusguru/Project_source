@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, APP06_DialogActivity!</string>
+    <string name="app_name">주요기능구현중</string>
+    <string name="spinerlist">더보기</string>
+
+</resources>
