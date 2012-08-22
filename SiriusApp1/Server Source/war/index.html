@@ -59,7 +59,8 @@
 						<p>
 							<font size="4" color="red">서버와 연동</font>
 						</p>
-						<p>간단한 설명</p></td>
+						<p>간단한 설명</p>
+					</td>
 				</tr>
 			</table>
 			</p>
@@ -126,15 +127,13 @@
 								<td>questionnaire</td>
 								<td><span class="readonly"><input type="text"
 										style="width: 185px;" autocomplete="off" class="gsc-input"
-										maxlength="2048" name="name" id="name" /> </span>
-								</td>
+										maxlength="2048" name="name" id="name" /> </span></td>
 							</tr>
 							<tr>
 								<td>manual</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="description" id="description" />
-								</td>
+									name="description" id="description" /></td>
 							</tr>
 							<tr>
 								<td>&nbsp;</td>
@@ -143,7 +142,8 @@
 									type="button" class="cancel" title="Cancel" value="취소"
 									onclick="cancel('product')" /> <input type="reset"
 									id="product-reset" class="cancel" title="Reset" value="Reset"
-									style="visibility: hidden" /></td>
+									style="visibility: hidden" />
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -178,8 +178,9 @@
 					style="border-collapse: collapse;">
 					<thead>
 						<tr>
-							<th scope="col">노래명-가수명</th>
-							<th scope="col">URL</th>
+							<th scope="col">Image URL</th>
+							<th scope="col">YouTube URL</th>
+							<th scope="col">노래 제목</th>
 							<th scope="col">노래 설명</th>
 							<th scope="col">분류</th>
 							<th scope="col">설정</th>
@@ -194,26 +195,32 @@
 				<form name="item-create-form" id="item-create-form">
 					<table width="200" cellspacing="0" cellpadding="0">
 						<tr>
-							<td>Song</td>
+							<td>Image URL</td>
 							<td><span class="readonly"><input type="text"
 									style="width: 185px;" autocomplete="off" class="gsc-input"
-									maxlength="2048" name="name" id="name" /> </span>
-							</td>
+									maxlength="2048" name="name" id="name" /> </span></td>
 						</tr>
 						<tr>
-							<td>URL</td>
+							<td>YouTube URL</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="price" id="price" />
-							</td>
+								name="price" id="price" /></td>
 						</tr>
+						<!--  제목에 대한 값을 지정해줘야 한다. 저장버튼을 누르면 인지할 수 있도록 -->
+						<tr>
+							<td>노래 제목</td>
+							<td><input type="text" style="width: 185px;"
+								autocomplete="off" class="gsc-input" maxlength="2048"
+								name="songname" id="songname" /></td>
+						</tr>
+						
+												
 						<!--  메뉴얼에 대한 값을 지정해줘야 한다. 저장버튼을 누르면 인지할 수 있도록 -->
 						<tr>
-							<td>설명</td>
-							<td><input type="text" style="width: 185px;"
+							<td>노래 설명</td>
+							<td><input type="text" style="width: 1150px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="manual" id="manual" />
-							</td>
+								name="manual" id="manual" /></td>
 						</tr>
 						<tr>
 							<td>questionnaire</td>
@@ -227,7 +234,8 @@
 								type="button" class="cancel" title="Cancel" value="취소"
 								onclick="cancel('item')" /> <input type="reset" id="item-reset"
 								class="cancel" title="Reset" value="Reset"
-								style="visibility: hidden" /></td>
+								style="visibility: hidden" />
+							</td>
 						</tr>
 					</table>
 				</form>

@@ -57,9 +57,12 @@ var showHideCreate = function(entity, show) {
 
 // parameter object definition
 // this. 했을때 name, value 나오는것을 어떤 소스가 결정하는 건가
-var param = function(name, value, manual) {
+// song, manual 추가했음
+var param = function(name, value, songname, manual) {
 	this.name = name;
 	this.value = value;
+	//추가 부분
+	this.songname = songname;
 	this.manual = manual;
 	
 }
@@ -137,12 +140,13 @@ var save = function(entity) {
 	var formEleList = $('form#' + entity + '-create-form').serializeArray();
 	// 이쪽부분을 수정하면 될거 같은데...
 	// param부분 수정해야함
+	// 추가부분 songname
 	for ( var i = 0; i < formEleList.length; i++) {
-		data[data.length] = new param(formEleList[i].name, formEleList[i].value, formEleList[i].manual );
+		data[data.length] = new param(formEleList[i].name, formEleList[i].value, formEleList[i].songname, formEleList[i].manual );
 	}
 	// setting action as PUT
-	// PUT 마지막에 추가시켰다.
-	data[data.length] = new param('action', 'PUT', 'PUT');
+	// PUT 마지막에 추가시켰다.(2개)
+	data[data.length] = new param('action', 'PUT', 'PUT', 'PUT');
 	// making the ajax call
 	$.ajax({
 		url : "/" + entity,
@@ -288,9 +292,10 @@ var populateList = function(entity, filter) {
 					break;
 				//data[i].manual + '</td><td>' 추가했다.
 				//화면에 뷰를 추가시키기 위해서
+				//data[i].songname + '</td><td>' 추가했음
 				case ENTITY_ITEM:
 					htm += '<td>' + data[i].name + '</td><td>' + data[i].price
-							+ '</td><td>' + data[i].manual + '</td><td>' +
+							+ '</td><td>' + data[i].songname + '</td><td>' + data[i].manual + '</td><td>' +
 							data[i].product + '</td>';
 					break;
 				default:

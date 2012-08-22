@@ -63,14 +63,16 @@ public class ItemServlet extends BaseServlet {
    */
   //String manual = req.getParameter("manual");
   // Item.createOrUpdateItem(productName, itemName, price, manual); 에서 manual만
+  //songname 추가했음
   protected void doPut(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
     logger.log(Level.INFO, "Creating Item");
     String itemName = req.getParameter("name");
     String productName = req.getParameter("product");
     String price = req.getParameter("price");
+    String songname = req.getParameter("songname");
     String manual = req.getParameter("manual");
-    Item.createOrUpdateItem(productName, itemName, price, manual);
+    Item.createOrUpdateItem(productName, itemName, price, songname, manual);
   }
 
   /**

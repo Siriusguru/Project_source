@@ -11,7 +11,8 @@
         android:label="@string/app_name"
         android:theme="@style/CustomTheme" >
         <activity
-            android:name=".main"
+            android:name="app.main.main"
+            android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,18 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="exam.baibecktest.baibecktest"></activity>
-        <activity android:name="exam.baibecktest.baianxiety"></activity>
-        <activity android:name="exam.baibecktest.baisanxiety"></activity>
-        <activity android:name="exam.baibecktest.baiesanxiety"></activity>
-        <activity android:name="exam.saictest.saictest"></activity>
-        <activity android:name="exam.saictest.saicanxiety"></activity>
-        <activity android:name="exam.saictest.saicsanxiety"></activity>
-        <activity android:name="exam.saictest.saicesanxiety"></activity>
-        <activity android:name="exam.stai.x2.staix2test"></activity>
-        <activity android:name="exam.stai.x2.staix2anxiety"></activity>
-        <activity android:name="exam.stai.x2.staix2sanxiety"></activity>
-        <activity android:name="exam.stai.x2.staix2esanxiety"></activity>
+        <activity android:name="today.song.todaymain"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="splash.splash"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="app.help.help"></activity>
     </application>
 
 </manifest>

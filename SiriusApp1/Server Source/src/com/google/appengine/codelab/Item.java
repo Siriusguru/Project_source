@@ -32,8 +32,9 @@ public class Item {
 	// String manual추가했음
 	// item.setProperty("manual", manual);
 	// 분류, Song, URL, 설명
+	// songname 추가했음
 	public static Entity createOrUpdateItem(String productName,
-			String itemName, String price, String manual) {
+			String itemName, String price, String songname, String manual) {
 		Entity product = Product.getProduct(productName);
 		Entity item = getSingleItem(itemName);
 		if (item == null) {
@@ -42,7 +43,9 @@ public class Item {
 			item.setProperty("product", productName);
 			item.setProperty("price", price);
 			//추가한것
+			item.setProperty("songname", songname);
 			item.setProperty("manual", manual);
+			//
 		} else {
 			if (price != null && !"".equals(price)) {
 				item.setProperty("price", price);
