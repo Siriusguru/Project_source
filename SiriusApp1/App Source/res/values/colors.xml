@@ -2,4 +2,6 @@
 <resources>
     <color name="artist_text_fg">#FF7F0000</color>
     <color name="contents">#000000</color>
+    <color name="notice">#FF0000</color>
+    <color name="theme">#CD5C5C</color>
 </resources>

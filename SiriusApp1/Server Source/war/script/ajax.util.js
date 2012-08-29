@@ -178,8 +178,11 @@ var edit = function(entity, id) {
 						//화면표시 기능
 						$("select[id$=item-product-list] > option").remove();
 						ele.append('<option value="'
+								
 								+ eval('data.' + ele.attr('name')) + '">'
 								+ eval('data.' + ele.attr('name'))
+								
+
 								+ '</option>');
 					} else
 						ele.val(eval('data.' + ele.attr('name')));

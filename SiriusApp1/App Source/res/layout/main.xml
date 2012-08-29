@@ -46,7 +46,7 @@
         android:layout_marginRight="150px"
         android:layout_marginTop="570px"
         android:layout_x="206dp"
-        android:layout_y="333dp"
+        android:layout_y="331dp"
         android:background="@drawable/stop"
         android:shadowDx="1"
         android:shadowDy="1"

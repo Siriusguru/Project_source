@@ -1,13 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:background="@drawable/saicsub"
-    android:orientation="vertical" >
+    android:orientation="horizontal" >
 
-    <ListView
-        android:id="@+id/listViewExample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="46dp"
+            android:src="@drawable/subpage2" >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="46dp"
+            android:src="@drawable/subpage2" >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="46dp"
+            android:src="@drawable/subpage2" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:gravity="center_vertical"
+            android:text="Music Mate는 어떤 앱인가요?"
+            android:textColor="@color/artist_text_fg" />
+
+        <TextView
+            android:id="@+id/help2"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:gravity="center_vertical"
+            android:text="음악추천은 어떤 기준으로 하나요?"
+            android:textColor="@color/artist_text_fg" />
+
+        <TextView
+            android:id="@+id/help3"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:gravity="center_vertical"
+            android:text="프로젝트 소스 공유(GIT)사이트"
+            android:textColor="@color/artist_text_fg" />
+    </LinearLayout>
 
 </LinearLayout>

@@ -1,7 +1,7 @@
 
 package splash;
 
-import exam.project.R;
+import MusicMate.song.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;

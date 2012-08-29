@@ -27,7 +27,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import exam.project.R;
+import MusicMate.song.R;
 
 public class todaymain extends Activity {
 	Bitmap bmImg;

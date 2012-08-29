@@ -12,12 +12,13 @@ import android.view.View;
 import android.widget.Button;
 import app.help.help;
 
-import exam.project.R;
+import MusicMate.song.R;
 
 public class main extends Activity {
 	/** Called when the activity is first created. */
 	Button start, pause, stop;
 	Intent intent;
+	
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class main extends Activity {
 		start.setOnClickListener(new ButtonHandler());
 		pause.setOnClickListener(new ButtonHandler());
 		stop.setOnClickListener(new ButtonHandler());
+		
 
 	}
 

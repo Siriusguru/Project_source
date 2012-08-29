@@ -49,6 +49,9 @@ public class Item {
 		} else {
 			if (price != null && !"".equals(price)) {
 				item.setProperty("price", price);
+				//추가한것
+				item.setProperty("name", itemName);
+				item.setProperty("product", productName);
 			}
 		}
 		Util.persistEntity(item);

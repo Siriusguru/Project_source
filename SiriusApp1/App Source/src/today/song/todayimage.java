@@ -11,7 +11,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
-import exam.project.R;
+import MusicMate.song.R;
 
 public class todayimage extends Activity {
 	//static Bitmap bmImg;

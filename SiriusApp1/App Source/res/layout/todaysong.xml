@@ -31,7 +31,7 @@
                 android:id="@+id/themeurl1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/contents" />
+                android:textColor="@color/theme" />
 
             <TextView
                 android:id="@+id/contenturl1"
@@ -67,7 +67,7 @@
                 android:id="@+id/themeurl2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/contents" />
+                android:textColor="@color/theme" />
 
             <TextView
                 android:id="@+id/contenturl2"
@@ -103,7 +103,7 @@
                 android:id="@+id/themeurl3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/contents" />
+                android:textColor="@color/theme" />
 
             <TextView
                 android:id="@+id/contenturl3"
@@ -112,5 +112,11 @@
                 android:textColor="@color/contents" />
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="노래를 들으실거면 이미지를 클릭하십시오"
+        android:textColor="@color/notice" />
 
 </LinearLayout>
