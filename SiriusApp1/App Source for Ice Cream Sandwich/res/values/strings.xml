@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">MusicMate</string>
+
+    <string-array name="str_languages">
+        <item> English </item>
+        <item> French </item>
+        <item> German </item>
+        
+    </string-array>
+      
+    
+</resources>

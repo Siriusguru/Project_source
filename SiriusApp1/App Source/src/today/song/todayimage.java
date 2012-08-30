@@ -32,7 +32,7 @@ public class todayimage extends Activity {
 	// 이미지 URL받아오기 (메소드)
 	InputStream downloadFile(String fileUrl) {
 		
-		URL myFileUrl = null; // URL 타입의 myFileUrl을 NULL로 초기화 시켜줍니다.
+		URL myFileUrl = null ; // URL 타입의 myFileUrl을 NULL로 초기화 시켜줍니다.
 
 		try {
 			myFileUrl = new URL(fileUrl); // 파라미터로 넘어온 Url을 myFileUrl에 대입합니다.
