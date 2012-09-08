@@ -1,2 +1,0 @@
-serviceClass: cpm.as.client.GreetingService
-path: FD8B9F40A46B451F0E08094C0FA57173.gwt.rpc
